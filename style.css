@@ -1808,4 +1808,23 @@ margin-left: 120px;
     height: 300px;
   }
 }
->>>>>>> 27a99f0 (Second commit)
+@media(max-width:1024px){
+  .container-1, .container-2{
+    width: 100%;
+    height: auto;
+    padding:50px 20px;
+    margin-left: 0;
+  }
+  .heading1, .heading2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  .bar{
+    font-size: 20px;
+  }
+  .progress-line span::after{
+    font-size: 14px;
+    padding: 2px 6px;
+  }
+}
